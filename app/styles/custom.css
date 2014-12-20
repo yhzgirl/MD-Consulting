@@ -1,3 +1,13 @@
+body {
+  font-family: 'PT Sans', Tahoma, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 100;
+  line-height: 1.1;
+  letter-spacing: 2px;
+}
+
 p {
   font-size: 20px;
 }
@@ -17,19 +27,21 @@ li {
   height: 400px;
   color: #fff;
   margin: 0 auto;
+  padding: 25px 75px 0;
   border: none;
 }
 
 h1,
 .page-heder.top h1 {
   font-size: 55px;
+  font-weight: 100;
 }
 
 .cover-container {
   background-image: url("../images/md_consulting_isle_of_skye.jpg");
   background-position: center center;
   background-size: cover;
-  min-height: 50.3875em;
+  min-height: 50.1475em;
 }
 
 .navbar {
@@ -41,9 +53,13 @@ h1,
     color: #fff;
   }
 
+.navbar-default .navbar-nav > li > a:hover {
+    color: #999;
+  }
+
 .about-section {
   background-color: #292c31;
-  min-height: 38.6875em;
+  min-height: 47.6875em;
   padding: 75px;
   color: #808d99;
 }
