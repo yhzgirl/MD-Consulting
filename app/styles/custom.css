@@ -14,11 +14,6 @@ h1,
   font-size: 55px;
 }
 
-.do-for-you .section-header {
-  margin-bottom: 50px;
-  margin-top: 20px;
-}
-
 .cover-container {
   background-image: url("../images/md_consulting_isle_of_skye.jpg");
   background-position: center center;
@@ -31,7 +26,6 @@ h1,
   border: none;
 }
 
-
 .navbar-default .navbar-nav > li > a {
     color: #fff;
   }
@@ -41,6 +35,13 @@ h1,
   min-height: 38.6875em;
   padding: 75px;
   color: #808d99;
+}
+
+.do-for-you {
+  background-color: #8e1cb2;
+  min-height: 38.6875em;
+  color: #99D6FF;
+  padding: 75px;
 }
 
 .about-section h2 {
@@ -53,11 +54,25 @@ h1,
   margin-left: 40px;
 }
 
-.do-for-you {
-  background-color: #8e1cb2;
-  min-height: 38.6875em;
+.do-for-you .section-header {
+  margin-bottom: 60px;
 }
 
+.do-for-you i {
+  font-size: 8em;
+  color: white;
+  margin: 20px auto 40px;
+  display: table;
+}
+
+.do-for-you h1 {
+  color: white;
+}
+
+.do-for-you h3 {
+  color: white;
+  margin-bottom: 40px;
+}
 .do-for-you > p {
   color: #99d6ff;
 }
