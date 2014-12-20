@@ -2,6 +2,17 @@ p {
   font-size: 20px;
 }
 
+ul {
+  padding: 0px;
+  margin: 20px 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 25px 0 0 10px;
+  font-size: 1.5em;
+}
+
 .page-header.top {
   height: 400px;
   color: #fff;
@@ -37,13 +48,6 @@ h1,
   color: #808d99;
 }
 
-.do-for-you {
-  background-color: #8e1cb2;
-  min-height: 38.6875em;
-  color: #99D6FF;
-  padding: 75px;
-}
-
 .about-section h2 {
   color: white;
 }
@@ -52,6 +56,13 @@ h1,
   padding: 30px;
   max-width: 75%;
   margin-left: 40px;
+}
+
+.do-for-you {
+  background-color: #8e1cb2;
+  min-height: 38.6875em;
+  color: #99D6FF;
+  padding: 75px;
 }
 
 .do-for-you .section-header {
@@ -80,6 +91,14 @@ h1,
 .past-work {
   background-color: #fff;
   min-height: 38.6875em;
+  padding: 75px;
+}
+
+.past-work i {
+  color: #8e1cb2;
+  display: block;
+  float:left;
+  margin: 5px 10px 0px 0px;
 }
 
 .contact {
