@@ -85,8 +85,7 @@ ul.nav.navbar-nav.pull-right {
 
 .about-section img {
   padding: 30px;
-  max-width: 75%;
-  margin-left: 40px;
+  margin: 0 auto;
 }
 
 .do-for-you {
