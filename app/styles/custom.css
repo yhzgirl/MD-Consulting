@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 ul {
@@ -20,7 +20,7 @@ ul {
 li {
   list-style-type: none;
   margin: 25px 0 0 10px;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .page-header.top {
@@ -56,6 +56,12 @@ h1,
 .navbar-default .navbar-nav > li > a:hover {
     color: #999;
   }
+
+ul.nav.navbar-nav.pull-right {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 100;
+  letter-spacing: .7px;
+}
 
 .about-section {
   background-color: #292c31;
@@ -117,7 +123,7 @@ h1,
   margin: 5px 10px 0px 0px;
 }
 
-.contact {
+.contact_me {
   background-color: #e8d1ef;
   min-height: 38.6875em;
 }
