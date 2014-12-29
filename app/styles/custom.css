@@ -156,3 +156,13 @@ ul.nav.navbar-nav.pull-right {
     text-decoration: none;
   }
 
+.footer {
+  background-color: white;
+  margin: 15px auto;
+}
+
+.footer i {
+  font-size: 2.2em;
+  vertical-align:  middle;
+}
+
