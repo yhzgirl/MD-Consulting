@@ -13,6 +13,7 @@ module.exports = function (grunt) {
   // show elapsed time at the end
   require('time-grunt')(grunt);
 
+
   // configurable paths
   var yeomanConfig = {
     app: require('./bower.json').appPath || 'app',
@@ -260,8 +261,16 @@ module.exports = function (grunt) {
         'svgmin',
         'htmlmin'
       ]
+    },
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
     }
   });
+
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
